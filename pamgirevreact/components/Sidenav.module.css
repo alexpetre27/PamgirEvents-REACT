@@ -1,0 +1,26 @@
+.link {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 9999px;
+    background-color: #374151;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in;
+}
+.link:hover {
+    background-color: #1f2937;
+}
+.link span {
+    margin-left: 10px;
+    flex:1;
+}
+.link svg {
+    margin-right: 10px;
+    margin-left:30px;
+}
+.menuOpen {
+    transition: transform 0.3s ease-in-out ;
+  }
